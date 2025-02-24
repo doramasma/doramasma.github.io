@@ -36,6 +36,13 @@ export function Navigation() {
               Projects
               <span className={`absolute -bottom-1 left-0 w-full h-[1.5px] bg-current transform transition-transform duration-200 ${location.pathname === '/projects' ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`} />
             </Link>
+            <Link 
+              to="/resume" 
+              className="text-[13px] font-medium relative group dark:text-gray-300"
+            >
+              Resume
+              <span className={`absolute -bottom-1 left-0 w-full h-[1.5px] bg-current transform transition-transform duration-200 ${location.pathname === '/resume' ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`} />
+            </Link>
             <button
               onClick={toggleTheme}
               className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
