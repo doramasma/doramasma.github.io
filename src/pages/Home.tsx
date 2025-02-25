@@ -16,9 +16,9 @@ export function Home() {
     },
     {
       type: 'blog',
-      title: 'Test',
+      title: 'Template',
       date: 'Feb 24, 2025',
-      description: 'Testing a blog post',
+      description: 'Template post',
       link: '/blog/',
     }
   ];
