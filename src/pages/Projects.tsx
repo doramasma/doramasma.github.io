@@ -15,16 +15,6 @@ export function Projects() {
   const projects: Project[] = [
     //////////////////////////////////////////////////
     {
-      title: 'Template',
-      date: 'Feb 24, 2025',
-      description: 'Template project',
-      link: 'https://doramasma.github.io/',
-      githubUrl: 'https://doramasma.github.io/',
-      bulletPoints: [
-        'Python, Fastai, Streamlit',
-      ]
-    },
-    {
       title: 'Pesonal Portfolio Website',
       date: 'Feb 24, 2025',
       description: 'My personal portfolio website built with React, TypeScript, and Tailwind CSS.',
@@ -36,6 +26,44 @@ export function Projects() {
         ' Blog with markdown support',
       ]
     },
+    {
+      title: 'NewsAskAI',
+      date: 'Jan 23, 2025',
+      description: 'Open-source project using Retrieval-Augmented Generation (RAG)',
+      link: 'https://github.com/doramasma/NewsAskAI/blob/main/src/news_ask_ai/static/assets/usage_example.gif',
+      githubUrl: 'https://github.com/doramasma/NewsAskAI',
+      bulletPoints: [
+        'Python, UV, textual-UI',
+        'LLMs, Embedding models, Vector Database',
+        'Open-source project',
+      ]
+    },
+    {
+      title: 'DETR (DEtection TRansformer) - Finetune',
+      date: 'Feb 12, 2021',
+      description: 'Finetuning scripts for an End-to-End Object Detection with Transformers',
+      githubUrl: 'https://github.com/doramasma/DERT-finetune',
+      link: 'https://github.com/doramasma/DERT-finetune',
+      image: '/dert-result.png',
+      bulletPoints: [
+        'Python, Jupyter notebooks',
+        'Transformers, Finetuning, Datasets',
+        'Open-source project',
+      ]
+    },
+    {
+      title: 'MatLibraryPy',
+      date: 'Feb 03, 2021',
+      description: 'Matrix library made with C ++ for Python',
+      githubUrl: 'https://github.com/doramasma/MatLibraryPy',
+      link: 'https://github.com/doramasma/MatLibraryPy',
+      bulletPoints: [
+        'C++, Boost-python, swig',
+        'Matrix, Vectors, Numerical operations',
+        'Open-source project',
+      ]
+    },
+    
   ];
 ///////////////////////////////////////////////////////////////////////
   return (
