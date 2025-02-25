@@ -15,11 +15,40 @@ export function Home() {
       isNew: true
     },
     {
+      type: 'project',
+      title: 'NewsAskAI',
+      date: 'Jan 23, 2025',
+      description: 'Open-source project using Retrieval-Augmented Generation (RAG) to enable users to ask questions about the latest news.',
+      link: 'https://github.com/doramasma/NewsAskAI',
+      isNew: true
+    },
+    {
       type: 'blog',
-      title: 'Template',
-      date: 'Feb 24, 2025',
-      description: 'Template post',
-      link: '/blog/',
+      title: 'Building a Spanish Multimodal Model for Enhanced Search Capabilities',
+      date: '2024',
+      description: 'An informative guide on fine-tuning multimodal models for Spanish-language understanding.',
+      link: 'https://www.linkedin.com/pulse/navigating-new-frontiers-building-spanish-multimodal-model-xtbge/',
+    },
+    {
+      type: 'blog',
+      title: 'Building an Automated Coding Model',
+      date: '2023',
+      description: 'First deep dive into NLP: Experimenting with AI-driven code generation',
+      link: 'https://medium.com/the-theam-journey/building-our-own-automated-coding-model-29118f444f96',
+    },
+    {
+      type: 'project',
+      title: 'DETR (DEtection TRansformer) - Finetune',
+      date: '2021',
+      description: 'DETR (DEtection TRansformer) - Fine-tuning for urban scene understanding',
+      link: 'https://github.com/doramasma/DERT-finetune',
+    },
+    {
+      type: 'project',
+      title: 'MatLibraryPy',
+      date: '2021',
+      description: 'Numerical library for matrix and vector operations.',
+      link: 'https://github.com/doramasma/MatLibraryPy',
     }
   ];
 
