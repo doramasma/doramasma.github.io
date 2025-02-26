@@ -30,7 +30,7 @@ export function Timeline({ items, title = 'Latest' }: TimelineProps) {
                 {/* Timeline Marker */}
                 <div className="absolute -left-[26px] top-[14px]">
                   {item.type === 'project' ? (
-                    <div className="relative z-10 bg-[#1a1a1a] flex items-center justify-center w-[18px] h-[18px] transition-colors group-hover:text-blue-500 dark:text-gray-400 dark:group-hover:text-blue-400">
+                    <div className="relative z-10 bg-[#fafafa] dark:bg-[#1a1a1a] flex items-center justify-center w-[18px] h-[18px] transition-colors group-hover:text-blue-500 dark:text-gray-400 dark:group-hover:text-blue-400">
                       <FolderGit2 size={16} className="transition-colors" />
                     </div>
                   ) : (
