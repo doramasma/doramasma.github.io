@@ -61,7 +61,7 @@ export function BlogPost() {
   return (
     <div className="min-h-screen bg-[#fafafa] dark:bg-[#1a1a1a] relative">
       {/* Back button - Desktop Only */}
-      <div className="hidden lg:block fixed top-24 left-6 z-40">
+      <div className="max-w-3xl mx-auto px-6 py-0">
         <Link 
           to="/blog"
           className="inline-flex items-center text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
@@ -72,7 +72,7 @@ export function BlogPost() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-2xl mx-auto px-6 py-16">
+      <div className="max-w-3xl mx-auto px-6 py-8">
         <article className="prose prose-gray dark:prose-invert max-w-none">
           <h1 className="text-3xl font-medium mb-8 text-gray-900 dark:text-gray-100">
             {post.title}
@@ -86,7 +86,7 @@ export function BlogPost() {
           </div>
 
           <div 
-            className="text-gray-700 dark:text-gray-300 leading-relaxed
+            className="text-gray-700 dark:text-gray-300 leading-relaxed text-justify
               [&>p]:mb-6 
               [&>h1]:text-2xl [&>h1]:font-medium [&>h1]:mb-4 
               [&>h2]:text-xl [&>h2]:font-medium [&>h2]:mb-4 

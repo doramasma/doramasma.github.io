@@ -13,13 +13,13 @@ export interface BlogPost {
   date: string;
   content: string;
   description: string;
-  tag: 'Tech' | 'Life' | 'Other';
+  tag: 'Tech' | 'Life' | 'AI Safety' | 'Other';
   isNew?: boolean;
 }
 
 export interface BlogFrontmatter {
   title: string;
   date: string;
-  tag: 'Tech' | 'Life' | 'Other';
+  tag: 'Tech' | 'Life' | 'AI Safety' | 'Other';
   description: string;
 }
