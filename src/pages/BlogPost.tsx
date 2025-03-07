@@ -91,10 +91,12 @@ export function BlogPost() {
               [&>h1]:text-2xl [&>h1]:font-medium [&>h1]:mb-4 
               [&>h2]:text-xl [&>h2]:font-medium [&>h2]:mb-4 
               [&>h3]:text-lg [&>h3]:font-medium [&>h3]:mb-3
-              [&>ul]:mb-6 [&>ul]:list-disc [&>ul]:pl-6
-              [&>ol]:mb-6 [&>ol]:list-decimal [&>ol]:pl-6
+              [&>ul]:mb-6 [&>ul]:list-disc [&>ul]:pl-6 [&>ul>li>ul]:list-disc [&>ul>li>ul]:ml-6
+              [&>ol]:mb-6 [&>ol]:list-decimal [&>ol]:pl-6 [&>ol>li>ol]:list-decimal [&>ol>li>ol]:ml-6
               [&>li]:mb-2
-              [&>blockquote]:border-l-4 [&>blockquote]:border-gray-200 [&>blockquote]:dark:border-gray-700 [&>blockquote]:pl-4 [&>blockquote]:italic [&>blockquote]:mb-6"
+              [&>blockquote]:border-l-4 [&>blockquote]:border-gray-200 [&>blockquote]:dark:border-gray-700 [&>blockquote]:pl-4 [&>blockquote]:italic [&>blockquote]:mb-6
+              [&>pre]:bg-gray-100 [&>pre]:text-sm [&>pre]:p-4 [&>pre]:rounded-md [&>pre]:overflow-x-auto
+              [&>code]:bg-gray-200 [&>code]:text-red-600 [&>code]:dark:text-red-400 [&>code]:px-1 [&>code]:rounded"
             dangerouslySetInnerHTML={{ __html: post.content }} 
           />
         </article>
@@ -102,3 +104,9 @@ export function BlogPost() {
     </div>
   );
 }
+
+
+
+// [&>blockquote]:border-l-4 [&>blockquote]:border-gray-200 [&>blockquote]:dark:border-gray-700 [&>blockquote]:pl-4 [&>blockquote]:italic [&>blockquote]:mb-6
+// [&>pre]:bg-gray-100 [&>pre]:dark:bg-gray-800 [&>pre]:text-sm [&>pre]:p-4 [&>pre]:rounded-md [&>pre]:overflow-x-auto
+// [&>code]:bg-gray-200 [&>code]:dark:bg-gray-700 [&>code]:text-red-600 [&>code]:dark:text-red-400 [&>code]:px-1 [&>code]:rounded"

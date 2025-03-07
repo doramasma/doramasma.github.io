@@ -7,6 +7,14 @@ import { Timeline } from '../components/Timeline';
 export function Home() {
   const timelineItems: TimelineItem[] = [
     {
+      type: 'blog',
+      title: 'GenAI in Cybersecurity',
+      date: 'Mar 07, 2025',
+      description: 'Generative AI in cybersecurity, practices and its implications',
+      link: '/blog/GenAI&Cybersecurity',
+      isNew: true
+    },
+    {
       type: 'project',
       title: 'Personal Portfolio Website',
       date: 'Feb 24, 2025',
@@ -20,7 +28,7 @@ export function Home() {
       date: 'Jan 23, 2025',
       description: 'Open-source project using Retrieval-Augmented Generation (RAG) to enable users to ask questions about the latest news.',
       link: 'https://github.com/doramasma/NewsAskAI',
-      isNew: true
+      isNew: false
     },
     {
       type: 'blog',
