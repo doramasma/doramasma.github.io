@@ -161,7 +161,7 @@ Regarding prompt injections, here are some ways to avoid them:
    
 2. Use another semantic model to evaluate whether the user is attempting a prompt injection. For example, you can use implicit toxicity models to detect toxic words.
 
-A simple guardrails could be somehting like the following:
+A simple guardrails could be something like the following:
 
 ```Python
 async def topical_guardrail(user_request):
